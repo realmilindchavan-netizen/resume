@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Computer Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-greeting">Hi, I'm <span class="hero-name">Your Name</span></h1>
+                    <h2 class="hero-title">Computer Engineer</h2>
+                    <p class="hero-tagline">Passionate about building innovative solutions with cutting-edge technology</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn--primary">View My Work</a>
+                        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="60" cy="60" r="60" fill="var(--color-bg-1)"/>
+                                <circle cx="60" cy="45" r="20" fill="var(--color-primary)"/>
+                                <path d="M20 100c0-22.091 17.909-40 40-40s40 17.909 40 40" fill="var(--color-primary)"/>
+                            </svg>
+                        </div>
+                        <div class="tech-badges">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p class="section-subtitle">Getting to know the person behind the code</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm a Computer Engineer</h3>
+                    <p>I'm a Computer Engineer with a strong passion for software development, system design, and emerging technologies. I enjoy solving complex problems and building efficient, scalable solutions that make a real impact.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4>Education</h4>
+                            <p>Bachelor of Engineering in Computer Science</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Location</h4>
+                            <p>Maharashtra, India</p>
+                        </div>
+                    </div>
+
+                    <h4>Interests & Passions</h4>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <span class="interest-icon">💻</span>
+                            <span>Software Development</span>
+                        </div>
+                        <div class="interest-item">
+                            <span class="interest-icon">🤖</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="interest-item">
+                            <span class="interest-icon">🌐</span>
+                            <span>Web Technologies</span>
+                        </div>
+                        <div class="interest-item">
+                            <span class="interest-icon">🏗️</span>
+                            <span>System Architecture</span>
+                        </div>
+                        <div class="interest-item">
+                            <span class="interest-icon">🔧</span>
+                            <span>Open Source Contributing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Technologies & Frameworks</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Django</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Spring Boot</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git/GitHub</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and achievements</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>E-Learning Platform</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/elearning-platform" target="_blank" class="project-link">
+                                <span class="link-icon">🔗</span>
+                                GitHub
+                            </a>
+                            <a href="https://your-demo-link.com" target="_blank" class="project-link">
+                                <span class="link-icon">🌐</span>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">Full-stack web application for online learning with video streaming, quiz system, and progress tracking</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Socket.io</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>User Authentication</li>
+                            <li>Video Streaming</li>
+                            <li>Real-time Chat</li>
+                            <li>Progress Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Task Management System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/task-manager" target="_blank" class="project-link">
+                                <span class="link-icon">🔗</span>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">Collaborative project management tool with real-time updates and team collaboration features</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Redis</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Team Collaboration</li>
+                            <li>Real-time Updates</li>
+                            <li>File Sharing</li>
+                            <li>Analytics Dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Weather Monitoring IoT</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/weather-iot" target="_blank" class="project-link">
+                                <span class="link-icon">🔗</span>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">IoT-based weather monitoring system with sensor data collection and web dashboard</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Sensor Integration</li>
+                            <li>Data Visualization</li>
+                            <li>Mobile App</li>
+                            <li>Cloud Storage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Machine Learning Model</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/ml-stocks" target="_blank" class="project-link">
+                                <span class="link-icon">🔗</span>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">Predictive model for stock price analysis using various ML algorithms and data visualization</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Data Analysis</li>
+                            <li>Multiple Algorithms</li>
+                            <li>Visualization</li>
+                            <li>Model Comparison</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience & Education</h2>
+                <p class="section-subtitle">My professional journey and academic background</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Developer Intern</h3>
+                        <h4>Tech Company Name</h4>
+                        <span class="timeline-date">Jun 2024 - Aug 2024</span>
+                        <p>Worked on web application development using modern frameworks and contributed to open-source projects</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Freelance Developer</h3>
+                        <h4>Various Clients</h4>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p>Developed custom web applications and mobile apps for small businesses and startups</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering</h3>
+                        <h4>Your University Name</h4>
+                        <span class="timeline-date">2021 - 2025</span>
+                        <p>Computer Science • GPA: 8.5/10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/yourprofile</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    <div id="form-success" class="success-message hidden">Thank you! Your message has been sent successfully.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Name. Built with passion for technology.</p>
+                <div class="footer-links">
+                    <a href="mailto:your.email@example.com">Email</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
